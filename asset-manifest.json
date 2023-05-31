@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/Artist-Albums/static/js/main.6abb22fe.js",
+    "index.html": "/Artist-Albums/index.html",
+    "main.6abb22fe.js.map": "/Artist-Albums/static/js/main.6abb22fe.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6abb22fe.js"
+  ]
+}
