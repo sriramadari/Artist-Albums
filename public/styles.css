@@ -33,7 +33,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: -344px;
   }
   h2{
     color: white;
