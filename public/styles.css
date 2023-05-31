@@ -1,0 +1,129 @@
+/* CSS for the header */
+*{
+    background-color: #393E46;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #222831;
+    padding: 10px;
+    text-align: center;
+  }
+  header p{
+    background-color: #222831;
+    font-size: 14px;
+    color: white;
+  }
+  header h1 {
+    background-color: #222831;
+    color: white;
+    margin: auto;
+    margin-bottom: -19px;
+    margin-right: 18px;
+    font-size: 35px;
+  }
+  header h1 img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+  }
+  .profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -344px;
+  }
+  h2{
+    color: white;
+    font-size: 30px;
+    margin-top: 16px;
+    
+  }
+  .artist-icon {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  /* CSS for the search input and button */
+  input[type="text"] {
+    
+    margin-top: 10px;
+    width: 280px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(230, 228, 226);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .load{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+  }
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1bdf60;
+    color: #222831;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #16914b;
+  }
+  
+  /* CSS for the card container and card tiles */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    justify-content: center;
+  }
+  .allcards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    justify-content: center;
+
+  }
+  
+  .card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  .intag{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .card:hover {
+    transform: translateY(-7px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: #1c1c1c;
+  }
+
+  
